@@ -1,0 +1,33 @@
+# LLM Environment variables
+
+# Reasoning LLM (for complex reasoning tasks)
+REASONING_API_KEY=sk-c831a9681fc04d37ab061ac2824dc97c
+REASONING_BASE_URL=https://api.deepseek.com/v1
+REASONING_MODEL=deepseek-chat
+
+# Non-reasoning LLM (for straightforward tasks)
+BASIC_API_KEY=sk-c831a9681fc04d37ab061ac2824dc97c
+BASIC_BASE_URL=https://api.deepseek.com/v1
+BASIC_MODEL=deepseek-chat
+
+# Vision-language LLM (for tasks requiring visual understanding)
+VL_API_KEY=sk-c831a9681fc04d37ab061ac2824dc97c
+VL_BASE_URL=https://api.deepseek.com/v1
+VL_MODEL=deepseek-chat
+
+# Application Settings
+DEBUG=True
+APP_ENV=development
+
+# Add other environment variables as needed
+TAVILY_API_KEY=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
+# JINA_API_KEY=jina_xxx # Optional, default is None
+
+# CHROME_INSTANCE_PATH=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+# CHROME_HEADLESS=False  # Optional, default is False
+# CHROME_PROXY_SERVER=http://127.0.0.1:10809  # Optional, default is None
+# CHROME_PROXY_USERNAME=  # Optional, default is None
+# CHROME_PROXY_PASSWORD=  # Optional, default is None
+
+# turn off for collecting anonymous usage information
+ANONYMIZED_TELEMETRY=false
