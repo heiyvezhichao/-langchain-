@@ -14,7 +14,7 @@ import platform
 import shutil
 
 # 设置默认编码为UTF-8
-if sys.platform.startswith('win'):
+if sys.platform.startswith('win '):
     # Windows环境下设置控制台编码
     os.system('chcp 65001 >nul 2>&1')
 
